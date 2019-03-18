@@ -1,0 +1,37 @@
+#body{
+  margin:0;
+  background:black;
+}
+#menu ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+#menu ul li{
+  width: 120px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background: #594848;
+  font-size: 17px;
+  color: white;
+  padding: 20px 10px;
+  font-family: Arial;
+  float: left;
+  position: relative;
+}
+#menu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+#menu ul li a:hover{
+  background-color: skyblue;
+}
+#menu ul ul{
+  position: absolute;
+  display: none;
+}
+#menu ul li:hover >ul{
+  display: block;
+}
